@@ -1,14 +1,16 @@
+.container{
+    width: 100%;
+    height: 100vh;
+}
 section{
     position: relative;
     width: 100%;
-    top: 60px;
-    min-height:100vh;   
+    height:auto;   
 }
-
 .sign_container{
-    width: 85%;
+    width: 100%;
     margin: auto;
-    /* margin-top: -100vh; */
+    margin-top: -100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -17,20 +19,23 @@ section{
 
 .sign_header img{
     width: 80px;
-    margin-top: 0px;
+    margin-top: -20px;
+    margin-left: 80px;
+}
+.sign_header2 img{
+    width: 80px;
+    margin-top: -40px;
+    margin-left: 110px; 
 }
 
 .sign_form{
     border: 1px solid #c9c9c9;
     padding: 20px 30px;
-    margin-top: -80px;
+    margin-top: 80px;
     border-radius: 5px;
     padding-top: 50px;
 }
-/* .form_data input{
-    background-color: #111111af;
-    color: white;
-} */
+
 
 .sign_form h1{
     font-weight: 500;
@@ -43,7 +48,8 @@ section{
     font-size: 14px;
     font-weight: 700;
     margin-bottom: 1px;
-    color: rgb(0, 0, 2) ;
+    /* color: rgb(0, 0, 2) ; */
+    color: white;
 }
 
 .sign_form input{
@@ -68,7 +74,6 @@ section{
     height: 29px;
     outline: none;
     border-radius: 3px;
-    /* background: linear-gradient(to bottom,rgb(17, 23, 90),rgb(17, 23, 90)); */
 }
 .signin_btn:hover{
     background-color: white;
@@ -108,7 +113,7 @@ section{
 .create_accountinfo p{
     font-size: 12px;
     text-align: center;
-    color: #767676;
+    color: #111;
     margin-top: 20px;
     font-weight: 600;
 }
@@ -123,19 +128,18 @@ section{
     margin-top: 15px;
 }
 
-.create_accountinfo a{
+/* .create_accountinfo a{
     text-decoration: none;
     color: #111;
     padding: 10px 35px;
     letter-spacing: .5px;
-}
-/* .login-page-image-big-screen img{
+} */
+.login-page-image-big-screen img{
     width: 100%;
     height: 100vh;
-    z-index: 0;
-    
-} */
-/* .login-page-image-small-screen img{
+    z-index: 0;   
+}
+.login-page-image-small-screen img{
     display: none;
 }
 @media (max-width: 640px){
@@ -145,7 +149,23 @@ section{
     .sign_container{
         margin-top: 0px;
     }
-    .login-page-image-small-screen{
-        display: ;
+    /* .container{
+        width: 100%;
+        height: 100vh;
+    } */
+    section{
+        background-image: url(./sm1.jpg);
+        /* width: 100%;
+        height: auto; */
+        background-repeat: no-repeat;
     }
-} */
+    .sign_container{
+        height: auto;
+        width: 100%;
+        margin-top: 0px;
+    }
+    .sign_form {
+        margin-top: 60px;
+        width: 85%;
+    }
+}

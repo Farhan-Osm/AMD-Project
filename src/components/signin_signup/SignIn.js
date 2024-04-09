@@ -21,23 +21,21 @@ const SignIn = () => {
         [name]: value,
       };
     });
-  };
+  };  
 
 
   return (
     <>
-    {/* <div className="login-page-image-big-screen">
-      <img src="./login-page-image.jpg" alt="" />
-      </div> */}
-      {/* <div className="login-page-image-small-screen">
-      <img src="./login-image-small-screen.png" alt="" />
-      </div> */}
+     <div className="container">
+    <div className="login-page-image-big-screen">
+      <img src="./sm2.jpg" alt="" />
+    </div>  
     <section>
       <div className="sign_container">
+        <div className="sign_form">
         <div className="sign_header ">
           <img src="./adm.png" alt="" />
         </div>
-        <div className="sign_form">
           <form>
             <h1>Sign-In</h1>
 
@@ -78,6 +76,7 @@ const SignIn = () => {
         </div>
       </div>
   </section>
+  </div>
   </>
   );
 };

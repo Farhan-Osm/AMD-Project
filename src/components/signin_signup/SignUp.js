@@ -45,16 +45,16 @@ const validatePhoneNumber = (phoneNumber) =>{
 
   return (
     <>
-    {/* <div className="login-page-image-big-screen">
-      <img src="./sign-up-page-image.jpg" alt="" />
-      </div> */}
+    <div className="login-page-image-big-screen">
+      <img src="./signup.jpg" alt="" />
+    </div>
     <section>
       <div className="sign_container">
-        <div className="sign_header">
+        <div className="sign_form">
+        <div className="sign_header2">
           <img src="./adm.png" alt="" />
           <hr />
         </div>
-        <div className="sign_form">
           <form>
             <h1>Create account</h1>
             <div className="form_data">
